@@ -26,11 +26,7 @@ const Navbar = () => {
         <h1 className="text-[#22202E] text-xl md:text-2xl md:absolute md:left-1/2 md:transform md:-translate-x-1/2">
           Avion
         </h1>
-        <ul className='flex gap-10 pl-96 ' >
-        <li><Link href="/">Home</Link></li>
-        <li><Link href="/about">About</Link></li>
-        <li><Link href="/productlisting">Products</Link></li>
-        </ul>
+      
 
         {/* Cart and Contact Icons for Large Screens */}
         <div className="sm:hidden md:flex gap-4">
